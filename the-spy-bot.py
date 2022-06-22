@@ -16,6 +16,7 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
+# Defines the prefix that indicates a command is being run.
 bot = commands.Bot(command_prefix='!')
 
 @bot.event
